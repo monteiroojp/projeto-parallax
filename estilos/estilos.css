@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor01: #282E34;
+    --cor02: #575757;
+
+    --fonttittle: 'Playfair Display';
+   
+}
+
+header{
+    position: relative;
+    display: block;
+    height: 100vh;
+    background-image: url(../imagens/bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: -1px 3px 20px 4px black;
+
+    background-color: #575757;
+    color: white;
+    width: 300px;
+    text-align: center;
+    height: 60px;
+    font-size: 0.9em;
+    
+
+}
+
+h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+section{
+    background-color: var(--cor01);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    text-align: center;
+    padding: 60px 20px 0px 20px;
+}
+
+section#sec01{
+    background-color: rgb(173, 171, 171);
+}
+
+section#sec01> h2{
+    color: black;
+}
+
+section#sec01 > p{
+    color: black;
+}
+
+section > h2{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1.8em;
+}
+
+section > p{
+    width: 1200px;
+    margin: auto;
+    font-size: 1.4em;
+    color: white;
+}
+
+div.bg-main{
+    background-color: green;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.bg-main#img01{
+    background-image: url(../imagens/bg02.jpg);
+}
+
+div.bg-main#img02{
+    background-image: url(../imagens/bg03.jpg);
+}
+
+footer{
+    position: relative;
+    display: block;
+    height: 100vh;
+    background-image: url(../imagens/bg04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.foot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: -1px 3px 20px 4px black;
+
+    background-color: #575757;
+    width: 300px;
+    text-align: center;
+    height: 60px;
+    font-size: 0.9em;
+}
+
+div.foot > h1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+div.foot > h1 > a:hover{
+    text-decoration: underline;
+}
