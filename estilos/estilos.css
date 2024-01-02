@@ -25,6 +25,10 @@ header{
     background-attachment: fixed;
 }
 
+main{
+    min-width: 320px;
+}
+
 div.tittle{
     position: absolute;
     top: 50%;
@@ -78,10 +82,12 @@ section > h2{
 }
 
 section > p{
-    width: 1200px;
+    padding: 0px 0px 20px 0px
     margin: auto;
-    font-size: 1.4em;
+    font-size: 1.1em;
     color: white;
+    text-align: justify;
+    text-align: center;
 }
 
 div.bg-main{
